@@ -4947,11 +4947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mustafa\\source\\repos\\DownNotifier\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Mustafa\\Documents\\GitHub\\DownNotifier\\DownNotifier\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Mustafa\\source\\repos\\DownNotifier\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Mustafa\\Documents\\GitHub\\DownNotifier\\DownNotifier\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mustafa\\source\\repos\\DownNotifier\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Mustafa\\Documents\\GitHub\\DownNotifier\\DownNotifier\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4968,8 +4968,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Mustafa\\source\\repos\\DownNotifier\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\Mustafa\\source\\repos\\DownNotifier\\Model\\Model.csproj"
+            "C:\\Users\\Mustafa\\Documents\\GitHub\\DownNotifier\\DownNotifier\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\Mustafa\\Documents\\GitHub\\DownNotifier\\DownNotifier\\Model\\Model.csproj"
             }
           }
         }
