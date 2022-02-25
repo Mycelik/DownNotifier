@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewData["Title"] = "Ana Sayfa";
+    var applist = ViewData.Model;
+
+}
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <form>
+                <div class="form-group">
+                    <label>App Control</label>
+                    <input type="text" class="form-control" id="txtUrl" placeholder="URL Entry">
+                    <br />
+                    <input id="btnUrl" type="button" value="Go App" class="btn btn-primary" />
+                </div>
+            </form>
+            <table id="tableApps" class="table table-bordered ">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Url</th>
+                        <th>Active</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in applist)
+                    {
+                    <tr>
+                        <td id="tableName">@item.Name</td>
+                        <td id="tableUrl">@item.Url</td>
+                        <td id="tableActive">@item.Active</td>
+                        <td><button  appId="@item.Id" type="button" class="btn btn-primary btnAppEdit">Edit</button></td>
+                        <td><button appId="@item.Id" type="button" class="btn btn-danger btnAppDelete" style="width:auto;">Delete</button></td>
+                    </tr>   
+                    }
+                </tbody>
+            </table>
+            <h3>New App</h3>
+            <form>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" id="txtName" placeholder="App Name">
+                    <br />
+                    <label>Url</label>
+                    <input type="text" class="form-control" id="txtUrl" placeholder="App Url">
+                    <br />
+                    <label for="active">Active:</label>
+                    <select class="form-select" name="active" id="selecActive">
+                        <option value="active" >Active</option>
+                        <option value="passive">Passive</option>
+                    </select>
+                    <br />
+                </div>
+                <input id="newAppBtn" type="button" value="Okey"  class="btn btn-primary"/>
+
+            </form>
+        </div>
+    </div>
+</div>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="Apps Update"></h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" id="modalAppId" style="display:none">
+                <label>Name</label>
+                <input type="text" class="form-control" id="txtName" placeholder="App Name">
+                <br />
+                <label>Url</label>
+                <input type="text" class="form-control" id="txtUrl" placeholder="App Url">
+                <br />
+                <label for="active">Active:</label>
+                <select class="form-select" name="active" id="modalActive">
+                    <option value="active" selected>Active</option>
+                    <option value="passive">Passive</option>
+                </select>
+                <br />
+                <input id="updateAppBtn" type="button" value="Update" class="btn btn-primary" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>

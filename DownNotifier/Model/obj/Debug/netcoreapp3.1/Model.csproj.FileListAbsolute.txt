@@ -1,0 +1,9 @@
+C:\Users\Mustafa\source\repos\DownNotifier\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\Users\Mustafa\source\repos\DownNotifier\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\Mustafa\source\repos\DownNotifier\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\Mustafa\source\repos\DownNotifier\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+C:\Users\Mustafa\source\repos\DownNotifier\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\Users\Mustafa\source\repos\DownNotifier\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\Users\Mustafa\source\repos\DownNotifier\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\source\repos\DownNotifier\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\Users\Mustafa\source\repos\DownNotifier\Model\obj\Debug\netcoreapp3.1\Model.pdb
